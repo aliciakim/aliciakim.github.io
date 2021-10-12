@@ -19,7 +19,6 @@ html,body {
 	margin: 0;
 	overflow-y: auto;
     overflow-x: hidden;
-
 }
 
 
@@ -136,7 +135,7 @@ p {
 	height: 800px;
 }
 #design{
-  background: #ADD8E6;
+  /**background: #fae3f5;**/
 	font-size: 12px;
 	color: black;
 	text-align: center;
@@ -354,7 +353,7 @@ p {
 }
 
 .left-contact{
-    background: #fae3f5;
+    
     height: 100%;
     width:50%;
     float: left;
@@ -363,7 +362,7 @@ p {
 
 }
 .right-contact{
-    background: #fbd3f9;
+    /** background: #fbd3f9; **/
     height: 100%;
     width: 50%;
     float: right;
@@ -384,28 +383,31 @@ a.h3{
 .right-contact:hover{
     opacity: 0.8;
     border: 1px solid white;
+    background: #fae3f5;
 }
 .right-contact:hover a {
-    font-size: 30px;
+    font-size: 24px;
     -webkit-transition-duration: 0.3s; /* Safari */
     transition-duration: 0.3s;
     cursor: pointer;
+    background: #fae3f5;
 }
 
 .left-contact:hover{
     opacity: 0.9;
+    background: #fae3f5;
     border: 1px solid white;
 
 }
 .left-contact:hover a {
-    font-size: 30px;
+    font-size: 24px;
     -webkit-transition-duration: 0.3s; /* Safari */
     transition-duration: 0.3s;
     cursor: pointer;
+    background: #fae3f5;
 }
 
 #about {
-  background: #FFFF99;
   color: black;
   text-align: center;
   height: 1000px;
@@ -415,7 +417,7 @@ a.h3{
 
 
 .top-row{
-
+    background: background: #fae3f5;;
     height: 500px;
     width: 900px;
     margin: 0 auto;
@@ -428,24 +430,24 @@ header{
      padding: 3px;
      font-size: 14px;
      letter-spacing: 1px;
-     border: 1.5px solid white;
      margin-bottom: 50px;
 }
 
 .puzzle-container{
-    height: 200px;
+    height: 350px;
     width: 80%;
     margin: 0 auto;
 }
 
 .col-sm-4{
-    border: 1px solid #ADD8E6;
+    border: 1px solid #fae3f5;
+    margin-top: 10px;
     font-size: 12px;
     height: 100%;
 
 }
 .col-sm-4:hover{
-    background:#ADD8E4;
+    background:#fae3f5;
     cursor: pointer;
 }
 
